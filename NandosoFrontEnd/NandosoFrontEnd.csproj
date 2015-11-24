@@ -112,11 +112,11 @@
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\specials.js" />
     <Content Include="Scripts\specialsModule.js" />
     <Content Include="feedback.html" />
     <Content Include="livechat.html" />
     <Content Include="specials.html" />
-    <Content Include="tempPg.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

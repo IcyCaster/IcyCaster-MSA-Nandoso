@@ -1,2 +1,21 @@
-﻿body {
+﻿/*  480px is the typical size of a phone in portrait mode, thus website will scale accordingly */
+
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 6vw;
+    }
+
+    p {
+        font-size: 3vw;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    h1 {
+        font-size: 4vw;
+    }
+
+    p {
+        font-size: 1.5vw;
+    }
 }

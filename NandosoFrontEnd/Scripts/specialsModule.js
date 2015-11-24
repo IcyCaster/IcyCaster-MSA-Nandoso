@@ -1,5 +1,5 @@
 ﻿// Module pattern, for promoting encapsulation.
-var SpecialsModule = (function () {
+var specialsModule = (function () {
 
     // Private things here
 
@@ -9,11 +9,13 @@ var SpecialsModule = (function () {
 
             $.ajax({
                 type: "GET",
-                dataType: "json",
-                url
-            })
+                dataType: "jsonp",
+                url: "http://api.uinames.com/?amount=25",
+                success: function (data) {
+                    console.log(data);
+                    callback(data);
+                }
+            });
         }
-
     };
-
 }());
