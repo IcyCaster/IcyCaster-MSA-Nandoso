@@ -2,10 +2,17 @@
 <html>
 <head>
     <title></title>
-	<meta charset="utf-8" />
+    <meta charset="utf-8" />
 
     <script src="Scripts/jquery-1.9.1.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/jCollapsible.min.js"></script>
+
+    <script type='text/javascript'>
+        $(document).ready(function () {
+            $('#comments').collapsible({ xoffset: '-20', yoffset: '50', imagehide: 'Assets/arrow-down.png', imageshow: 'Assets/arrow-right.png', defaulthide: true });
+        });
+    </script>
 
     <!-- Module Pattern scripts -->
     <script src="Scripts/specialsModule.js"></script>
@@ -13,6 +20,63 @@
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/carouselStyle.css" rel="stylesheet" />
     <link href="Content/indexStyle.css" rel="stylesheet" />
+
+    <style>
+        p {
+            font-size: 18px;
+            line-height: 24px;
+            margin: 0 0 30px;
+        }
+
+        ul, ol {
+            padding-left: 20px;
+            line-height: 18px;
+        }
+
+        .biglist {
+            font-size: 110%;
+            font-weight: bold;
+            background: #fff;
+            padding: 10px 40px;
+            margin: 0;
+        }
+
+        .jcollapsible {
+            font-size: 125%;
+            font-weight: bold;
+        }
+
+        #comments {
+            padding: 0;
+            margin: 0;
+        }
+
+            #comments li {
+                float: left;
+                padding: 10px 0 0;
+            }
+
+        .comment {
+            background: #fff;
+            padding: 10px;
+            display: block;
+            overflow: hidden;
+        }
+
+        .comment-author {
+            float: left;
+            width: 50px;
+            font-size: 10px;
+            text-align: center;
+            margin: 0 10px 10px 0;
+        }
+
+        .comment-body, .comment-body p {
+            font-size: 12px;
+            line-height: 18px;
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
     <!---------- The Navigation Menu ---------->
@@ -46,6 +110,109 @@
             </ul>
         </div>
     </div>
+
+    <ul id="comments">
+        <li>
+            <div class="comment">
+                <div class="comment-author"><img src="Assets/gravatar.gif" /><a href="/">Author</a></div>
+                <div class="comment-body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+            </div>
+            <ul class="children">
+                <li>
+                    <div class="comment">
+                        <div class="comment-author"><img src="Assets/gravatar.gif" /><a href="/">Author</a></div>
+                        <div class="comment-body">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                    </div>
+                    <ul class="children">
+                        <li>
+                            <div class="comment">
+                                <div class="comment-author"><img src="Assets/gravatar.gif" /><a href="/">Author</a></div>
+                                <div class="comment-body">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <div class="comment">
+                <div class="comment-author"><img src="Assets/gravatar.gif" /><a href="/">Author</a></div>
+                <div class="comment-body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="comment">
+                <div class="comment-author"><img src="Assets/gravatar.gif" /><a href="/">Author</a></div>
+                <div class="comment-body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+            </div>
+            <ul class="children">
+                <li>
+                    <div class="comment">
+                        <div class="comment-author"><img src="Assets/gravatar.gif" /><a href="/">Author</a></div>
+                        <div class="comment-body">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                    </div>
+                    <ul class="children">
+                        <li>
+                            <div class="comment">
+                                <div class="comment-author"><img src="Assets/gravatar.gif" /><a href="/">Author</a></div>
+                                <div class="comment-body">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="comment">
+                                <div class="comment-author"><img src="Assets/gravatar.gif" /><a href="/">Author</a></div>
+                                <div class="comment-body">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <div class="comment">
+                <div class="comment-author"><img src="Assets/gravatar.gif" /><a href="/">Author</a></div>
+                <div class="comment-body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+            </div>
+        </li>
+    </ul>
+
+
 
 </body>
 </html>
