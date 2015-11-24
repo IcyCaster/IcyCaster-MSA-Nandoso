@@ -1,0 +1,91 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 40px;
+    background: #eee;
+    font-family: Verdana, Arial;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2, h3 {
+    margin: 0 0 20px;
+    text-shadow: 2px 2px #fff;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+pre {
+    background: #fff;
+    width: 460px;
+    padding: 10px 20px;
+    border-left: 5px solid #ccc;
+    margin: 0 0 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 0 30px;
+}
+
+ul, ol {
+    padding-left: 20px;
+    line-height: 18px;
+}
+
+.biglist {
+    font-size: 110%;
+    font-weight: bold;
+    background: #fff;
+    padding: 10px 40px;
+    margin: 0;
+}
+
+.jcollapsible {
+    font-size: 125%;
+    font-weight: bold;
+}
+
+#comments {
+    padding: 0;
+    margin: 0;
+}
+
+    #comments li {
+        float: left;
+        padding: 10px 0 0;
+    }
+
+.comment {
+    background: #fff;
+    padding: 10px;
+    display: block;
+    overflow: hidden;
+}
+
+.comment-author {
+    float: left;
+    width: 50px;
+    font-size: 10px;
+    text-align: center;
+    margin: 0 10px 10px 0;
+}
+
+.comment-body, .comment-body p {
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0;
+}

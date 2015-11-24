@@ -90,6 +90,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\carouselStyle.css" />
     <Content Include="Content\indexStyle.css" />
+    <Content Include="Content\jCollapsibleStyle.css" />
     <Content Include="css\font-awesome.css" />
     <Content Include="css\font-awesome.min.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
