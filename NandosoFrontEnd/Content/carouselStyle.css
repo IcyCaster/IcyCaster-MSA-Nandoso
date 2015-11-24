@@ -1,0 +1,20 @@
+﻿.carousel {
+    margin-bottom: 5%;
+}
+
+.carousel-caption {
+    z-index: 10;
+}
+
+.carousel-inner > .item > img {
+    width: 100%;
+}
+
+.carousel-caption p {
+    font-size: 2vw;
+    line-height: 1.4;
+}
+
+.carousel-caption h3 {
+    font-size: 4vw;
+}

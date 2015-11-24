@@ -85,7 +85,8 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\tempCar.css" />
+    <Content Include="Content\carouselStyle.css" />
+    <Content Include="Content\indexStyle.css" />
     <Content Include="css\font-awesome.css" />
     <Content Include="css\font-awesome.min.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
@@ -107,10 +108,14 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
+    <None Include="Properties\PublishProfiles\Nandosoo.pubxml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="Scripts\specialsModule.js" />
+    <Content Include="feedback.html" />
+    <Content Include="livechat.html" />
+    <Content Include="specials.html" />
     <Content Include="tempPg.html" />
     <Content Include="Web.config" />
   </ItemGroup>
