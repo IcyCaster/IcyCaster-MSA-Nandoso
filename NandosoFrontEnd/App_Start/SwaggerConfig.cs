@@ -1,11 +1,10 @@
 using System.Web.Http;
 using WebActivatorEx;
-using NandosoFrontEnd;
 using Swashbuckle.Application;
 
-[assembly: PreApplicationStartMethod(typeof(SwaggerConfig), "Register")]
+[assembly: PreApplicationStartMethod(typeof(NandosoApplication.SwaggerConfig), "Register")]
 
-namespace NandosoFrontEnd
+namespace NandosoApplication
 {
     public class SwaggerConfig
     {
@@ -32,7 +31,7 @@ namespace NandosoFrontEnd
                         // hold additional metadata for an API. Version and title are required but you can also provide
                         // additional fields by chaining methods off SingleApiVersion.
                         //
-                        c.SingleApiVersion("v1", "NandosoFrontEnd");
+                        c.SingleApiVersion("v1", "NandosoApplication");
 
                         // If your API has multiple versions, use "MultipleApiVersions" instead of "SingleApiVersion".
                         // In this case, you must provide a lambda that tells Swashbuckle which actions should be
