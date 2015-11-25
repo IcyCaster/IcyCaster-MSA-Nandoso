@@ -8,5 +8,6 @@ namespace NandosoBackEnd.Models
 {
     class Customer : User
     {
+        public string Username { get; set; }
     }
 }

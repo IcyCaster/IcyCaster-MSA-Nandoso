@@ -35,6 +35,10 @@ function loadSpecials() {
             promoCol.innerHTML = specials[i].name;
             row.appendChild(promoCol);
 
+            var expiryCol = document.createElement('td');
+            expiryCol.innerHTML = specials[i].name;
+            row.appendChild(expiryCol);
+
             // Append the row to the end of the table
             specialTable.appendChild(row);
 

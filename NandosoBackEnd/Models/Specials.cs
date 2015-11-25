@@ -12,7 +12,7 @@ namespace NandosoBackEnd.Models
         public string ImgURL { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-        public DateTime ExpiryDate { get; set; }
-        public string PromoCode { get; set; } 
+        public string PromoCode { get; set; }
+        public DateTime ExpiryDate { get; set; }       
     }
 }
