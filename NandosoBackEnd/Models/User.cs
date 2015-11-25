@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NandosoBackEnd.Models
 {
-    abstract class User
+    public abstract class User
     {
         public int ID { get; set; }
         public string FirstName { get; set; }

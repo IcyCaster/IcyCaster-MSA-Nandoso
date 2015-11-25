@@ -11,7 +11,7 @@ namespace NandosoBackEnd.Models
         Technician, CustomerService, LocalManager, RegionalManager, CEO, StaffMember
     }
 
-    class Employee : User
+    public class Employee : User
     {
         public Title? Title { get; set; }
     }

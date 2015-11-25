@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NandosoBackEnd.Models
 {
-    class Specials
+    public class Specials
     {
         public int ID { get; set; }
         public string ImgURL { get; set; }
