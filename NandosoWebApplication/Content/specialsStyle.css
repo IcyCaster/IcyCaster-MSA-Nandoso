@@ -4,3 +4,29 @@
     margin-right: auto;
     width: 75%;
 }
+
+table {
+    border-collapse:collapse;
+    width: 100%;
+}
+
+tr > th {
+    width: 25%;
+}
+
+tr > th + th {
+    width: 15%;
+}
+
+tr > th + th + th {
+    width: 35%;
+}
+
+tr > th + th + th + th{
+    width: 10%;
+}
+
+
+tr > th + th + th + th + th{
+    width: 15%;
+}

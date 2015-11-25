@@ -9,8 +9,8 @@ var specialsModule = (function () {
 
             $.ajax({
                 type: "GET",
-                dataType: "jsonp",
-                url: "http://api.uinames.com/?amount=25",
+                dataType: "json",
+                url: "http://nandosoo.azurewebsites.net/api/Specials",
                 success: function (data) {
                     console.log(data);
                     callback(data);

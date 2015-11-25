@@ -20,23 +20,26 @@ function loadSpecials() {
 
             // Add the columns in the row (td / data cells)
             var imageCol = document.createElement('td');
-            imageCol.innerHTML = specials[i].name;
+            var img = document.createElement('img');
+            img.setAttribute('src', specials[i].ImgURL);
+            img.style.width = '300px';
+            imageCol.appendChild(img);
             row.appendChild(imageCol);
 
             var nameCol = document.createElement('td');
-            nameCol.innerHTML = specials[i].name;
+            nameCol.innerHTML = specials[i].Name;
             row.appendChild(nameCol);
 
             var descriptionCol = document.createElement('td');
-            descriptionCol.innerHTML = specials[i].name;
+            descriptionCol.innerHTML = specials[i].Description;
             row.appendChild(descriptionCol);
 
             var promoCol = document.createElement('td');
-            promoCol.innerHTML = specials[i].name;
+            promoCol.innerHTML = specials[i].PromoCode;
             row.appendChild(promoCol);
 
             var expiryCol = document.createElement('td');
-            expiryCol.innerHTML = specials[i].name;
+            expiryCol.innerHTML = specials[i].ExpiryDate;
             row.appendChild(expiryCol);
 
             // Append the row to the end of the table
