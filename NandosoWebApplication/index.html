@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Nandosoo, the place to be!</title>
+    <meta charset="utf-8" />
+
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+
+    <!-- Module Pattern scripts -->
+    <script src="Scripts/index.js"></script>
+
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/carouselStyle.css" rel="stylesheet" />
+    <link href="Content/mediaResizing.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+</head>
+<body>
+
+    <!---------- The Navigation Menu ---------->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-header">
+
+            <!-- Appears when collapsed -->
+            <button type="button" class="navbar-toggle"
+                    data-toggle="collapse"
+                    data-target=".navbar-collapse">
+
+                <!-- This is the Toggle Navigation icon -->
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+
+                <!-- Does not collapse -->
+            </button> <a href="index.html" class="navbar-brand">
+                Nandosoo
+            </a>
+        </div>
+
+        <!-- Menus which will collapse -->
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="specials.html">Specials</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="livechat.html">Livechat</a></li>
+                <li><button type="button" class="btn btn-default navbar-btn">Sign in</button></li>
+            </ul>
+        </div>
+    </div>
+
+    <!---------- The Carousal ---------->
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+
+        <!-- Selection indicators at the bottom -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+            <li data-target="#carousel" data-slide-to="3"></li>
+            <li data-target="#carousel" data-slide-to="4"></li>
+        </ol>
+
+        <!-- Carousel Pictures -->
+        <!-- Use similar ratios for each picture for a more uniformed result -->
+        <!-- Ideal size is 1024px x 512px -->
+        <div class="carousel-inner">
+
+            <div class="item active">
+                <img src="https://placeholdit.imgix.net/~text?txtsize=85&bg=662222&txt=1024%C3%97512&w=1024&h=512" alt="Slide 1" />
+            </div>
+            <div class="carousel-caption">
+                <h3>First slide</h3>
+                <p>Description description description description!</p>
+            </div>
+
+            <div class="item">
+                <img src="https://placeholdit.imgix.net/~text?txtsize=85&bg=454545&txt=1024%C3%97512&w=1024&h=512" alt="Slide 2" />
+            </div>
+            <div class="carousel-caption">
+                <h3>First slide</h3>
+                <p>Description description description description!</p>
+            </div>
+
+            <div class="item">
+                <img src="https://placeholdit.imgix.net/~text?txtsize=85&bg=ff5476&txt=1024%C3%97512&w=1024&h=512" alt="Slide 3" />
+            </div>
+            <div class="carousel-caption">
+                <h3>First slide</h3>
+                <p>Description description description description!</p>
+            </div>
+
+            <div class="item">
+                <img src="https://placeholdit.imgix.net/~text?txtsize=85&bg=454545&txt=1024%C3%97512&w=1024&h=512" alt="Slide 4" />
+            </div>
+            <div class="carousel-caption">
+                <h3>First slide</h3>
+                <p>Description description description description!</p>
+            </div>
+
+            <div class="item">
+                <img src="https://placeholdit.imgix.net/~text?txtsize=85&bg=ff5476&txt=1024%C3%97512&w=1024&h=512" alt="Slide 5" />
+            </div>
+            <div class="carousel-caption">
+                <h3>First slide</h3>
+                <p>Description description description description!</p>
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a href="#carousel" class="left carousel-control" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a href="#carousel" class="right carousel-control" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+
+    <h1>TITLE!</h1>
+    <p>Other content here!</p>
+</body>
+</html>
