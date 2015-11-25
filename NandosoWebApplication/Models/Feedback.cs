@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NandosoApplication.Models
+namespace NandosoWebApplication.Models
 {
     public class Feedback
     {
