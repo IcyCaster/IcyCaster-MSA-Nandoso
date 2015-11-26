@@ -2,7 +2,7 @@
 <html>
 <head>
     <title></title>
-	<meta charset="utf-8" />
+    <meta charset="utf-8" />
 
     <script src="Scripts/jquery-1.9.1.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
@@ -15,6 +15,7 @@
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/carouselStyle.css" rel="stylesheet" />
     <link href="Content/mediaResizing.css" rel="stylesheet" />
+    <script src="Scripts/facebooklogin.js"></script>
 </head>
 <body>
     <!---------- The Navigation Menu ---------->
@@ -44,7 +45,8 @@
                 <li><a href="specials.html">Specials</a></li>
                 <li><a href="feedback.html">Feedback</a></li>
                 <li class="active"><a href="livechat.html">Livechat</a></li>
-                <li><button type="button" class="btn btn-default navbar-btn">Sign in</button></li>
+                <li><a style="padding-bottom:0"><div class="fb-login-button" data-max-rows="1" data-size="large" data-show-faces="false" data-auto-logout-link="true" onlogin="checkLoginState();"></div></a></li>
+                <li><a style="font-size:10px"><div id="status"></div></a></li>
             </ul>
         </div>
     </div>
@@ -55,7 +57,7 @@
         <input type="hidden" id="displayname" />
         <ul id="discussion"></ul>
     </div>
-   
+
     <!--Add script to update the page and send messages.-->
     <script type="text/javascript">
         $(function () {

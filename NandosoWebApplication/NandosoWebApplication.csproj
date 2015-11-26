@@ -209,7 +209,6 @@
     <Content Include="Scripts\carouselLoader.js" />
     <Content Include="Scripts\facebooklogin.js" />
     <Content Include="Scripts\feedback.js" />
-    <Content Include="Scripts\index.js" />
     <Content Include="Scripts\jCollapsible.min.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />

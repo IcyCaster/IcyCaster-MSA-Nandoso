@@ -7,6 +7,7 @@
     <script src="Scripts/jquery-1.9.1.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
     <script src="Scripts/jCollapsible.min.js"></script>
+    <script src="Scripts/facebooklogin.js"></script>
 
     <script type='text/javascript'>
         $(document).ready(function () {
@@ -21,7 +22,7 @@
     <link href="Content/carouselStyle.css" rel="stylesheet" />
     <link href="Content/mediaResizing.css" rel="stylesheet" />
     <link href="Content/jCollapsibleStyle.css" rel="stylesheet" />
-   
+
 </head>
 <body>
     <!---------- The Navigation Menu ---------->
@@ -51,7 +52,8 @@
                 <li><a href="specials.html">Specials</a></li>
                 <li class="active"><a href="feedback.html">Feedback</a></li>
                 <li><a href="livechat.html">Livechat</a></li>
-                <li><button type="button" class="btn btn-default navbar-btn">Sign in</button></li>
+                <li><a style="padding-bottom:0"><div class="fb-login-button" data-max-rows="1" data-size="large" data-show-faces="false" data-auto-logout-link="true" onlogin="checkLoginState();"></div></a></li>
+                <li><a style="font-size:10px"><div id="status"></div></a></li>
             </ul>
         </div>
     </div>
@@ -91,7 +93,7 @@
                 </li>
             </ul>
         </li>
-        <li style="list-style-type:none;"> <div>Add comment!</div></li>      
+        <li style="list-style-type:none;"> <div>Add comment!</div></li>
         <li>
             <div class="comment">
                 <div class="comment-author"><img src="Assets/gravatar.gif" /><a href="/">Author</a></div>
@@ -106,7 +108,8 @@
             <div class="comment">
                 <div class="comment-author"><img src="Assets/gravatar.gif" /><a href="/">Author</a></div>
                 <div class="comment-body">
-                    <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
                 </div>
             </div>
