@@ -1,6 +1,6 @@
-﻿body { 
+﻿body {
     background-color: #d8dae7;
-    padding-top: 50px; 
+    padding-top: 50px;
 }
 
 .centerObject {
@@ -13,7 +13,7 @@
     width: 100%;
 }
 
-textarea { 
+textarea {
     width: 50%;
-   resize:vertical;/*will prevent resizing horizontally*/ 
+    resize: vertical; /*will prevent resizing horizontally*/
 }

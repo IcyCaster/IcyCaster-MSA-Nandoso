@@ -1,0 +1,29 @@
+﻿.centerObject {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+body { 
+    background-color: #d8dae7;
+    padding-top: 50px; 
+}
+
+.container {
+    border: 2px solid #ccc;
+    width: 50%;
+    padding:10px;
+    background-color: #313131;
+}
+
+#convo {
+    color:black;
+    background-color: white;
+    height: 50vh;
+    overflow-y: scroll;
+}
+
+#message{
+    width: 100%;
+    resize: vertical; /*will prevent resizing horizontally*/
+}

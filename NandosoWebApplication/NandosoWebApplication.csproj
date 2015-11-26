@@ -182,6 +182,7 @@
     <Content Include="Content\feedbackStyle.css" />
     <Content Include="Content\indexStyle.css" />
     <Content Include="Content\jCollapsibleStyle.css" />
+    <Content Include="Content\livechatStyle.css" />
     <Content Include="Content\mediaResizing.css" />
     <Content Include="Content\specialsStyle.css" />
     <Content Include="css\font-awesome.css" />

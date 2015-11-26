@@ -9,12 +9,11 @@
     <script src="Scripts/jquery.signalR-2.2.0.min.js"></script>
     <script src="signalr/hubs"></script>
 
-    <!-- Module Pattern scripts -->
-    <script src=" Scripts/specialsModule.js"></script>
-
+    <link href="Content/indexStyle.css" rel="stylesheet" />
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/carouselStyle.css" rel="stylesheet" />
     <link href="Content/mediaResizing.css" rel="stylesheet" />
+    <link href="Content/livechatStyle.css" rel="stylesheet" />
     <script src="Scripts/facebooklogin.js"></script>
 </head>
 <body>
@@ -34,7 +33,7 @@
 
                 <!-- Does not collapse -->
             </button> <a href="index.html" class="navbar-brand">
-                Nandosoo
+                Nandoso
             </a>
         </div>
 
@@ -51,11 +50,18 @@
         </div>
     </div>
 
-    <div style="margin-top: 60px" class="container">
-        <input type="text" id="message" />
-        <input type="button" id="sendmessage" value="Send" />
-        <input type="hidden" id="displayname" />
-        <ul id="discussion"></ul>
+    <div class=" centerObject">
+        <h1 style="text-align:center">Nandoso Chat!</h1>
+        <div class="container">
+            <div id="convo">
+                <ul id="discussion"></ul>
+            </div>
+
+            <textarea type="text" id="message" placeholder="Chat away!"></textarea>
+            <input type="button" id="sendmessage" value="Send" class="btn btn-default col-xs-offset-10 col-xs-2" />
+            <input type="hidden" id="displayname" />
+
+        </div>
     </div>
 
     <!--Add script to update the page and send messages.-->
@@ -87,5 +93,7 @@
             });
         });
     </script>
+
+
 </body>
 </html>
