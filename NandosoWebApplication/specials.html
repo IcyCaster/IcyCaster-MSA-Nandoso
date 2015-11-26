@@ -6,7 +6,7 @@
 
     <script src="Scripts/jquery-1.9.1.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
-
+    <script src="Scripts/facebooklogin.js"></script>
     <!-- Module Pattern scripts -->
     <script src="Scripts/specialsModule.js"></script>
     <script src="Scripts/specials.js"></script>
@@ -45,7 +45,7 @@
                 <li class="active"><a href="specials.html">Specials</a></li>
                 <li><a href="feedback.html">Feedback</a></li>
                 <li><a href="livechat.html">Livechat</a></li>
-                <li><button type="button" class="btn btn-default navbar-btn">Sign in</button></li>
+                <li><fb:login-button scope="public_profile,email" onlogin="checkLoginState();"></fb:login-button><div id="status"></div></li>
             </ul>
         </div>
     </div>
