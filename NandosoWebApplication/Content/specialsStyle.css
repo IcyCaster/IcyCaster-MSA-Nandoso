@@ -1,5 +1,9 @@
-﻿.centerObject {
-    margin-top: 60px;
+﻿body { 
+    background-color: #d8dae7;
+    padding-top: 50px; 
+}
+
+.centerObject {
     margin-left: auto;
     margin-right: auto;
     width: 75%;
@@ -8,6 +12,11 @@
 table {
     border-collapse:collapse;
     width: 100%;
+}
+
+tr th {
+    background-color: #313131;
+    color:white;
 }
 
 tr > th {

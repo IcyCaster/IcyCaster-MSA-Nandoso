@@ -36,6 +36,7 @@ function loadSpecials() {
 
             var promoCol = document.createElement('td');
             promoCol.innerHTML = specials[i].PromoCode;
+            promoCol.style.fontWeight = 'bold';
             row.appendChild(promoCol);
 
             var expiryCol = document.createElement('td');
