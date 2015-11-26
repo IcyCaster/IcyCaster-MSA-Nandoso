@@ -169,11 +169,17 @@
     <Content Include="Assets\arrow-down.png" />
     <Content Include="Assets\arrow-right.png" />
     <Content Include="Assets\gravatar.gif" />
+    <Content Include="Assets\Nandoso1.png" />
+    <Content Include="Assets\Nandoso2.png" />
+    <Content Include="Assets\Nandoso3.png" />
+    <Content Include="Assets\Nandoso4.png" />
+    <Content Include="Assets\Nandoso5.png" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\carouselStyle.css" />
+    <Content Include="Content\indexStyle.css" />
     <Content Include="Content\jCollapsibleStyle.css" />
     <Content Include="Content\mediaResizing.css" />
     <Content Include="Content\specialsStyle.css" />
@@ -185,30 +191,28 @@
     <Content Include="Global.asax" />
     <Content Include="index.html" />
     <Content Include="livechat.html" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\bootstrap.min.css.map" />
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="fonts\FontAwesome.otf" />
     <Content Include="fonts\fontawesome-webfont.woff2" />
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
-    <Content Include="ApplicationInsights.config">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <SubType>Designer</SubType>
-    </Content>
     <None Include="Properties\PublishProfiles\Nandosoo.pubxml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Scripts\carouselLoader.js" />
     <Content Include="Scripts\facebooklogin.js" />
     <Content Include="Scripts\feedback.js" />
+    <Content Include="Scripts\feedbackModule.js" />
     <Content Include="Scripts\jCollapsible.min.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
