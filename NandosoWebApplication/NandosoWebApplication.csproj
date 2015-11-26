@@ -179,6 +179,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\carouselStyle.css" />
+    <Content Include="Content\feedbackStyle.css" />
     <Content Include="Content\indexStyle.css" />
     <Content Include="Content\jCollapsibleStyle.css" />
     <Content Include="Content\mediaResizing.css" />

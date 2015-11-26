@@ -4,24 +4,22 @@
     <title></title>
     <meta charset="utf-8" />
 
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/carouselStyle.css" rel="stylesheet" />
+    <link href="Content/mediaResizing.css" rel="stylesheet" />
+    <link href="Content/jCollapsibleStyle.css" rel="stylesheet" />
+    <link href="Content/feedbackStyle.css" rel="stylesheet" />
+
     <script src="Scripts/jquery-1.9.1.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
     <script src="Scripts/jCollapsible.min.js"></script>
     <script src="Scripts/facebooklogin.js"></script>
-
+    <script src="Scripts/feedbackModule.js"></script>
     <script type='text/javascript'>
         $(document).ready(function () {
             $('#comments').collapsible({ xoffset: '-20', yoffset: '50', imagehide: 'Assets/arrow-down.png', imageshow: 'Assets/arrow-right.png', defaulthide: true });
         });
     </script>
-
-    <!-- Module Pattern scripts -->
-    <script src="Scripts/specialsModule.js"></script>
-
-    <link href="Content/bootstrap.min.css" rel="stylesheet" />
-    <link href="Content/carouselStyle.css" rel="stylesheet" />
-    <link href="Content/mediaResizing.css" rel="stylesheet" />
-    <link href="Content/jCollapsibleStyle.css" rel="stylesheet" />
 
 </head>
 <body>
@@ -41,7 +39,7 @@
 
                 <!-- Does not collapse -->
             </button> <a href="index.html" class="navbar-brand">
-                Nandosoo
+                Nandoso
             </a>
         </div>
 
@@ -57,10 +55,79 @@
             </ul>
         </div>
     </div>
+    <div class="centerObject">
+        <h1 style="text-align:center">Your Feedback is much appreciated!</h1>
+        <ul id="comments">
+            <li style="list-style-type:none;"><div class="addFeedback"><textarea placeholder="Add New Feedback!"></textarea></div><button>Feedback!</button></li>
+            <li>
+                <div class="comment">
+                    <div class="comment-author"><img src="Assets/gravatar.gif" /><a href="/">Spike</a></div>
+                    <div class="comment-body">
+                        <p>
+                            I had uncooked chicken! It gave me food poisioning!
+                        </p>
+                    </div>
+                </div>
+                <ul class="children">
+                    <li>
+                        <div class="comment">
+                            <div class="comment-author"><img src="Assets/gravatar.gif" /><a href="/">CustomerSupport</a></div>
+                            <div class="comment-body">
+                                <p>
+                                    I'm sorry about your bad experience! Email us your details @ nandoso@azuremail.com and we'll see if we can arrange something. Regards!
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li style="list-style-type:none;"><div class="addAComment"><textarea placeholder="Add a comment!"></textarea></div><button>Reply!</button></li>
+            <li>
+                <div class="comment">
+                    <div class="comment-author"><img src="Assets/gravatar.gif" /><a href="/">Author</a></div>
+                    <div class="comment-body">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="comment">
+                    <div class="comment-author"><img src="Assets/gravatar.gif" /><a href="/">Author</a></div>
+                    <div class="comment-body">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                </div>
+                <ul class="children">
+                    <li>
+                        <div class="comment">
+                            <div class="comment-author"><img src="Assets/gravatar.gif" /><a href="/">Author</a></div>
+                            <div class="comment-body">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <div class="comment">
+                    <div class="comment-author"><img src="Assets/gravatar.gif" /><a href="/">Author</a></div>
+                    <div class="comment-body">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                </div>
+            </li>
 
-    <ul id="comments">
-        
-    </ul>
+        </ul>
+    </div>
+
 
 
 

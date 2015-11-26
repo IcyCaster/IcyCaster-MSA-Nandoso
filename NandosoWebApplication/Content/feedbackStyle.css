@@ -3,21 +3,17 @@
     padding-top: 50px; 
 }
 
-#content {
-    background-color: #ffffff;
-    padding: 25px;
-}
-
-    #content h1 {
-    
-    }
-
 .centerObject {
     margin-left: auto;
     margin-right: auto;
     width: 75%;
 }
 
-.addFeedback {
-    width: 75%;
+#comments li {
+    width: 100%;
+}
+
+textarea { 
+    width: 50%;
+   resize:vertical;/*will prevent resizing horizontally*/ 
 }
